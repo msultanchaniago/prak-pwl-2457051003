@@ -43,7 +43,7 @@
 <body>
 
     <div class="avatar">
-        <img src="{{ asset('images/foto.png') }}" alt="Foto Profil">
+        <img src="{{ asset('images/foto.png~') }}" alt="Foto Profil">
     </div>
 
     <div class="info-box">{{ $nama }}</div>
