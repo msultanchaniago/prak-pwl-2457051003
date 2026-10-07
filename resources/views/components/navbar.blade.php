@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
     <div class="container">
-        <a class="navbar-brand" href="{{ url('/user') }}">PWL App</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <a class="navbar-brand fw-bold" href="{{ url('/user') }}">PWL App</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -11,6 +11,12 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('user.create') }}">Tambah Pengguna</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/mata-kuliah') }}">Daftar Mata Kuliah</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('matakuliah.create') }}">Tambah Mata Kuliah</a>
                 </li>
             </ul>
         </div>
